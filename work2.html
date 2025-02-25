@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - Dynamic CSS Homepage</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Anek+Latin:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="circle-background"></div>
+        <div class="circle-lines"></div>
+
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="https://www.youtube.com/@xinchenLIU_7166">Youtube</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        
+
+        <div class="Traceless">
+            <h1>Photographs</h1>
+            <p>This is a selection of some of my photography between 2020 and 2024. </p>
+            <p>Photography has always been a way for me to preserve and observe things.</p>
+            <div class="view">
+                <img class="block" style="--index: 0" src="images/p1.jpg">
+                <img class="block" style="--index: 1" src="images/p2.JPG" >
+                <img class="block" style="--index: 2" src="images/p3.jpg" >
+                <img class="block" style="--index: 3" src="images/p4.jpg" >
+                <img class="block" style="--index: 4" src="images/p5.jpg" >
+                <img class="block" style="--index: 5" src="images/p6.jpg" >
+                <img class="block" style="--index: 6" src="images/p7.JPG" >
+                <img class="block" style="--index: 7" src="images/p8.jpg" >
+                <img class="block" style="--index: 8" src="images/p9.JPG" >
+                <img class="block" style="--index: 9" src="images/p10.jpg" >
+                <img class="block" style="--index: 10" src="images/p11.JPG" >
+                <img class="block" style="--index: 11" src="images/p12.jpg" >
+                
+            </div>
+        </div>
+
+        <footer>
+            &copy; 2025 XINCHEN.LIU - All Rights Reserved
+        </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12/dist/gsap.min.js"></script>
+
+    <script src="script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/4.2.2/masonry.pkgd.min.js"></script>
+    <script>
+        var masonry = new Masonry(elem, {
+    itemSelector: '.block',
+    columnWidth: '.block', 
+    gutter: 10,
+    fitWidth: true
+});
+    </script>
+</body>
+</html>

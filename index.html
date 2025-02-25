@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic CSS Homepage</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Instrument Serif -->
+    <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Anek Latin -->
+    <link href="https://fonts.googleapis.com/css2?family=Anek+Latin:wght@400;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="container">
+        
+        
+
+
+        <div class="circle-background"></div>
+        <div class="circle-lines"></div>
+
+        <img src="images/center.gif" alt="Dynamic GIF" class="center-gif">
+
+        <!-- menu -->
+        
+        <nav>
+            <ul>
+                
+                <li><a href="about.html">About</a></li>
+                <li><a href="https://www.youtube.com/@xinchenLIU_7166">Youtube</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="#" id="worksLink">Works</a></li>
+            </ul>
+        </nav>
+        
+        
+
+        <!-- quadrant -->
+        <div class="content">
+            
+         
+            <div class="quadrant quadrant-digital">Digital</div>
+            <div class="quadrant quadrant-sensible">Sensible</div>
+            <div class="quadrant quadrant-tangible">Tangible</div>
+            <div class="quadrant quadrant-absurd">Absurd</div>
+            
+          
+        </div>
+        
+
+
+ <div class="circle-lines">
+    <div class="dot"></div>
+    <div class="dot"></div>
+    <div class="dot"></div>
+    <div class="dot"></div>
+</div>
+<div class="container">
+    <!-- dots -->
+     
+    <div class="dot" style="top: 10%; left: 20%;" data-image="images/wkup.jpg" onclick="location.href='work6.html';"></div>
+    <div class="dot" style="top: 30%; left: 70%;" data-image="images/i1.png" onclick="location.href='work1.html';"></div>
+    <div class="dot" style="top: 55%; left: 25%;" data-image="images/i2.png" onclick="location.href='work3.html';"></div>
+    <div class="dot" style="top: 75%; left: 15%;" data-image="images/mr.jpg" onclick="location.href='work7.html';"></div>
+    <div class="dot" style="top: 60%; left: 90%;" data-image="images/bx.png" onclick="location.href='work5.html';"></div>
+    <div class="dot" style="top: 20%; left: 50%;" data-image="images/photo.png" onclick="location.href='work2.html';"></div>
+    <div class="dot" style="top: 70%; left: 60%;" data-image="images/tj.png" onclick="location.href='work9.html';"></div>
+    <div class="dot" style="top: 40%; left: 20%;" data-image="images/d.png" onclick="location.href='work4.html';"></div>
+    <div class="dot" style="top: 70%; left: 80%;" data-image="images/xc.png" onclick="location.href='work10.html';"></div>
+    <div class="dot" style="top: 15%; left: 85%;" data-image="images/ag.png" onclick="location.href='work8.html';"></div>
+
+    
+    
+
+    <div id="center-image" class="hidden">
+        <img src="" alt="Displayed Image" id="displayed-image">
+        
+    </div>
+</div>
+<div id="displayed-text"></div>
+    
+
+
+
+</div>
+        
+        <footer>© 2025 XINCHEN.LIU - All Rights Reserved</footer>
+    </div>
+
+    <div id="message" class="hidden">Click on the stars!</div>
+
+    <div class="custom-cursor"></div>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
